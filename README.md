@@ -4,7 +4,7 @@ Go to *cogcc website html* and enter your search terms and hit search. The resul
 
 Next, set In[2](where it says "file:///wherever you saved livequery.html") to the path where you just saved the html file. Also at this time, figure out the directory where you would like to save the logs and enter it at In[3] (where it says creates path to.../well logs/%s). 
 
-This version of the scraper targets directional data and the gamma ray logs for each well (lines X and X). Obviously you can change this to open any of the links on each well page, I was specifically interested in directional and gamma data so that's why those lines in block 3 are formatted that way. The comments on those two lines indixate which ones they are
+This version of the scraper targets directional data and the gamma ray logs for each well. Obviously you can change this to open any of the links on each well page, I was specifically interested in directional and gamma data so that's why those lines in block 3 are formatted that way. The comments on those two lines indixate which ones they are
 
 After you have set your paths and determined which logs you would like, run all the script and it will download all logs for all the wells that were returned in your search. The file structure for the downloads creates a folder named by each well API, and those contain the log data. You can change the naming convention if you want, but I found API was easiest. 
 
