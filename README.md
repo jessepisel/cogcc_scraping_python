@@ -10,3 +10,5 @@ After you have set your paths and determined which logs you would like, run all 
 
 # Additional info
 Also, a side note on scraping ethics: don't slam their servers with a ton of requests or they might just ban your IP. There is a 10 second time delay built in to the code so this won't be an issue. Good luck, happy scraping, and maybe the COGCC will get an api sooner than later.
+
+This notebook was written in Python 2.7 due to deprecation of features in urllib. Expect a ported Python 3.x version the week of 14 August 2017.
